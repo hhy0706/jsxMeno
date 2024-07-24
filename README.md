@@ -7,8 +7,8 @@ jsx传参
        ``` javascript 
        <Card age={11} name="susu"></Card>
        ```
-        子组件通过函数参数接收参数
-jsx插槽
+       
+jsx插槽 
 组件外部使用插槽
 ``` javascript
 <Card age={11} name="susu" >
