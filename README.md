@@ -9,7 +9,10 @@ jsx传参
 <Card age={11} name="susu"></Card>
       
        ```
-
+``` javascript
+<Card age={11} name="susu"></Card>
+        </Card>
+```
 ​       jsx插槽 
 组件外部使用插槽
 
