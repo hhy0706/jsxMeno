@@ -4,7 +4,7 @@ jsx传参
          或者使用函数调用 
         {card(11)} 
          组件要大写才生效 
-       ```javascript 
+       ``` javascript 
        <Card age={11} name="susu"></Card> 
        
        ```
