@@ -4,12 +4,14 @@ jsx传参
          或者使用函数调用 
         {card(11)} 
          组件要大写才生效 
-       ``` javascript 
-       <Card age={11} name="susu"></Card>
+
+       ```  javascript 
+<Card age={11} name="susu"></Card>
        ```
-       
-jsx插槽 
+
+​       jsx插槽 
 组件外部使用插槽
+
 ``` javascript
 <Card age={11} name="susu" >
             {{
@@ -17,7 +19,8 @@ jsx插槽
                 
             }}
         </Card>
- ```
+```
+
 组件内部定义插槽
  {slots.default && slots.default()}
 
@@ -41,8 +44,8 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
 1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+   1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+   2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
 ## Customize configuration
@@ -72,3 +75,4 @@ npm run build
 ```sh
 npm run lint
 ```
+
