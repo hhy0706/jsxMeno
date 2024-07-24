@@ -13,7 +13,7 @@ jsx插槽
                 foo:() => 'sssss'
                 
             }}
-        </Card>```
+        </Card>
 组件内部定义插槽
  {slots.default && slots.default()}
 
