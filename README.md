@@ -4,7 +4,7 @@ jsx传参
          或者使用函数调用 
         {card(11)} 
          组件要大写才生效 
-       ``` <Card age={11} name="susu"></Card> ```
+       ``` <Card age={11} name="susu"></Card> x
         子组件通过函数参数接收参数
 jsx插槽
 组件外部使用插槽
