@@ -5,10 +5,6 @@ jsx传参
         {card(11)} 
          组件要大写才生效 
 
-       ```  javascript 
-<Card age={11} name="susu"></Card>
-      
-       ```
 ``` javascript
 <Card age={11} name="susu"></Card>
     
