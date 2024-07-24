@@ -11,7 +11,7 @@ jsx传参
        ```
 ``` javascript
 <Card age={11} name="susu"></Card>
-        </Card>
+    
 ```
 ​       jsx插槽 
 组件外部使用插槽
